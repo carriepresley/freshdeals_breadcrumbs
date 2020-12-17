@@ -1,0 +1,8 @@
+.breadcrumb li {
+    display: inline;
+    text-decoration: none;
+  }
+  
+  .breadcrumb li+li::before {
+    content: "/ ";
+  }
